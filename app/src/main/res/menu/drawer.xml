@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_book"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_book" />
+        <item
+            android:id="@+id/navigation_item_example"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_example" />
+        <item
+            android:id="@+id/navigation_item_notebook"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_my_blog" />
+        <item
+            android:id="@+id/navigation_item_bookreader"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_bookreader" />
+        <item
+            android:id="@+id/navigation_item_video"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_video" />
+        <item
+            android:id="@+id/navigation_item_audio"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_audio" />
+        <item
+            android:id="@+id/navigation_item_camera"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_camera" />
+        <item
+            android:id="@+id/navigation_item_picfill"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_picfill" />
+        <item
+            android:id="@+id/navigation_item_QR"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_QR" />
+        <item
+            android:id="@+id/navigation_item_findmath"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_function" />
+        <item
+            android:id="@+id/navigation_item_about"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_about" />
+    </group>
+</menu>

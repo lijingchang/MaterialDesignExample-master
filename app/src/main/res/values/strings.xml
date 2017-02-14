@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Li demo</string>
+
+    <string name="action_settings">设置</string>
+
+    <string name="latest_news">最新</string>
+
+    <string name="title_login">用户登陆</string>
+    <string name="hint_username">用户名</string>
+    <string name="hint_password">密码</string>
+    <string name="button_login">登 陆</string>
+    <string name="button_chospic">选取图片</string>
+    <string name="button_save">保存图片</string>
+    <string name="button_addfliter">调整滤镜</string>
+    <string name="button_removefliter">隐藏</string>
+    <string name="text_fliter">滤镜: </string>
+    <string name="save_fliter">保存滤镜</string>
+
+    <string name="default_welcome">天干物燥，多喝水</string>
+    <string name="default_flash">打开闪光灯</string>
+    <string name="default_flashon">关闭闪光灯</string>
+    <string name="default_killapp">杀进程</string>
+
+
+    <string name="navigation_book">书籍查找</string>
+    <string name="navigation_example">知乎日报</string>
+    <string name="navigation_my_blog">日记本</string>
+    <string name="navigation_bookreader">读书</string>
+    <string name="navigation_video">视频</string>
+    <string name="navigation_audio">音频</string>
+    <string name="navigation_camera">滤镜</string>
+    <string name="navigation_picfill">拼图</string>
+    <string name="navigation_QR">make QR</string>
+    <string name="navigation_function">find math</string>
+    <string name="navigation_about">关于</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="press_again_exit_app">再按一次退出程序</string>
+
+    <string name="app_description">该APP为业余项目. \n 宝贵意见请mail：1161410340@qq.com</string>
+    <string name="app_github_url">hello world!</string>
+
+    <string name="title_book">书籍</string>
+
+    <string name="book_title_1">失控</string>
+    <string name="book_description_1">作者: [美] 凯文·凯利 \n副标题: 全人类的最终命运和结局 \n出版年: 2010-12 \n页数: 707 \n定价: 88.00元 </string>
+
+    <string name="book_title_2">黑客与画家</string>
+    <string name="book_description_2">作者: [美] Paul Graham\n副标题: 硅谷创业之父Paul Graham文集\n出版年: 2011-4\n页数: 264\n定价: 49.00元</string>
+
+    <string name="book_title_3">七周七语言</string>
+    <string name="book_description_3">作者: Bruce A.Tate\n副标题: 理解多种编程范型\n出版年: 2012-5-8\n页数: 246\n定价: 59.00元</string>
+
+    <string name="search">搜索</string>
+    <string name="input_hint">请输入关键字</string>
+    <string name="input_prefill"></string>
+    <string name="default_search_keyword">小王子</string>
+
+    <string name="title_buttom_tab">Buttom Tab</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="giraffe_player_url_empty">Please specify the address of the video playback</string>
+    <string name="small_problem">Player encountered a small problem</string>
+    <string name="can_not_play">can not play this video</string>
+    <string name="not_support">player not support this device</string>
+
+</resources>

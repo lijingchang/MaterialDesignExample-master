@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomAttributes">
+
+        <!-- in progress view indicate max value of progress -->
+        <attr name="max" format="integer" />
+        <!-- in progress view indicate min value of progress -->
+        <attr name="min" format="integer" />
+        <attr name="showNumberIndicator" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FlipViewController">
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+
+        <attr name="animationBitmapFormat" format="enum">
+            <enum name="ARGB_8888" value="0"/>
+            <enum name="ARGB_4444" value="1"/>
+            <enum name="RGB_565" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="VoronoiView">
+        <attr name="show_border" format="boolean" />
+        <attr name="vorborder_color" format="color" />
+        <attr name="vorborder_width" format="float" />
+        <attr name="vorborder_round" format="boolean" />
+
+        <attr name="generation_type">
+            <enum name="random" value="1" />
+            <enum name="ordered" value="2" />
+            <enum name="custom" value="3" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>

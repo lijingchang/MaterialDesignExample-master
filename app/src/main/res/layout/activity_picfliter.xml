@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto">
+
+    <com.aswifter.material.widget.ButtonRectangle
+        android:id="@+id/choosepic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:text="@string/button_chospic" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+        <com.aswifter.material.ijk.PicView
+            android:id="@+id/picmanger"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            />
+        <LinearLayout
+            android:id="@+id/matrixselect"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:background="#A0FFFFFF"
+            android:layout_gravity="center">
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="17sp"
+                    android:text="conR1"
+                    android:textColor="#4D4D4D" />
+
+                <com.aswifter.material.widget.Slider
+                    android:id="@+id/red1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D4D4D"
+                    materialdesign:max="100"
+                    materialdesign:min="0"
+                    materialdesign:showNumberIndicator="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="17sp"
+                    android:text="conR2"
+                    android:textColor="#4D4D4D" />
+
+                <com.aswifter.material.widget.Slider
+                    android:id="@+id/red2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D4D4D"
+                    materialdesign:max="100"
+                    materialdesign:min="0"
+                    materialdesign:showNumberIndicator="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="17sp"
+                    android:text="conR3"
+                    android:textColor="#4D4D4D" />
+
+                <com.aswifter.material.widget.Slider
+                    android:id="@+id/red3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D4D4D"
+                    materialdesign:max="100"
+                    materialdesign:min="0"
+                    materialdesign:showNumberIndicator="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="17sp"
+                    android:text="conG1"
+                    android:textColor="#4D4D4D" />
+
+                <com.aswifter.material.widget.Slider
+                    android:id="@+id/green1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D4D4D"
+                    materialdesign:max="100"
+                    materialdesign:min="0"
+                    materialdesign:showNumberIndicator="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="17sp"
+                    android:text="conG2"
+                    android:textColor="#4D4D4D" />
+
+                <com.aswifter.material.widget.Slider
+                    android:id="@+id/green2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D4D4D"
+                    materialdesign:max="100"
+                    materialdesign:min="0"
+                    materialdesign:showNumberIndicator="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="17sp"
+                    android:text="conG3"
+                    android:textColor="#4D4D4D" />
+
+                <com.aswifter.material.widget.Slider
+                    android:id="@+id/green3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D4D4D"
+                    materialdesign:max="100"
+                    materialdesign:min="0"
+                    materialdesign:showNumberIndicator="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="17sp"
+                    android:text="conB1"
+                    android:textColor="#4D4D4D" />
+
+                <com.aswifter.material.widget.Slider
+                    android:id="@+id/blue1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D4D4D"
+                    materialdesign:max="100"
+                    materialdesign:min="0"
+                    materialdesign:showNumberIndicator="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="17sp"
+                    android:text="conB2"
+                    android:textColor="#4D4D4D" />
+
+                <com.aswifter.material.widget.Slider
+                    android:id="@+id/blue2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D4D4D"
+                    materialdesign:max="100"
+                    materialdesign:min="0"
+                    materialdesign:showNumberIndicator="true" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:textSize="17sp"
+                    android:text="conB3"
+                    android:textColor="#4D4D4D" />
+
+                <com.aswifter.material.widget.Slider
+                    android:id="@+id/blue3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4D4D4D"
+                    materialdesign:max="100"
+                    materialdesign:min="0"
+                    materialdesign:showNumberIndicator="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:background="#D0000000"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom">
+        <Button
+            android:id="@+id/save"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:text="@string/button_save"
+        />
+
+
+        <Button
+            android:id="@+id/addfliter"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:text="@string/button_addfliter"
+            />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>
